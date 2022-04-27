@@ -3,9 +3,9 @@
   "builds": [
     {
   
-      "src": "app/routes/index.js",
+      "src": "./server.js",
       
-      "use": "@now/node"
+      "use": "@vercel/node"
     }
   ],
 
@@ -15,7 +15,7 @@
       
       "src": "/(.*)",
       
-      "dest": "app/routes/index.js"
+      "dest": "/"
     }
   ]
 }
