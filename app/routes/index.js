@@ -4,7 +4,7 @@ module.exports = app => {
     const classecontroller = require("../controllers/ClasseController")
     const disciplinacontroller = require("../controllers/DisciplinaController")
     
-    var router = require("../../node_modules/express/lib/express").Router();
+    var router = require("express/lib/express").Router();
     
     /* ROTA CLASSE */
     router.post("/classe_create", classecontroller.create);
