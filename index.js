@@ -23,7 +23,7 @@ var corsOptions = {
       message:"TESTE DENTRo"})
   }); */
 
-require("./app/routes/index.js")(app)
+require("./app/routes/router.js")(app)
   
   // set port, listen for requests
   
