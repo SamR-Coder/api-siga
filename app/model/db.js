@@ -6,7 +6,8 @@ const con = mysql.createPool({
     host: config.host,
     user: config.user,
     password: config.password,
-    database: config.db
+    database: config.db,
+    connectTimeout: config.connectTimeout
     
 })
 
